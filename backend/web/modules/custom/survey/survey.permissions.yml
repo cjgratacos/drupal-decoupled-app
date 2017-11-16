@@ -1,0 +1,22 @@
+add form submission entity entities:
+  title: 'Create new Form submission entity entities'
+
+administer form submission entity entities:
+  title: 'Administer Form submission entity entities'
+  description: 'Allow to access the administration form to configure Form submission entity entities.'
+  restrict access: true
+
+delete form submission entity entities:
+  title: 'Delete Form submission entity entities'
+
+edit form submission entity entities:
+  title: 'Edit Form submission entity entities'
+
+access form submission entity overview:
+  title: 'Access the Form submission entity overview page'
+
+view published form submission entity entities:
+  title: 'View published Form submission entity entities'
+
+view unpublished form submission entity entities:
+  title: 'View unpublished Form submission entity entities'

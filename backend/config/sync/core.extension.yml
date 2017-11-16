@@ -41,12 +41,16 @@ module:
   quickedit: 0
   shortcut: 0
   simpletest: 0
+  survey: 0
   system: 0
   taxonomy: 0
   text: 0
   toolbar: 0
   user: 0
   views_ui: 0
+  webform: 0
+  webform_templates: 0
+  webform_ui: 0
   menu_link_content: 1
   views: 10
   config_installer: 1000

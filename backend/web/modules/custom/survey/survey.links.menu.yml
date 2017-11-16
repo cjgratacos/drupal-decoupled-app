@@ -1,0 +1,14 @@
+
+# Form submission entity menu items definition
+entity.form_submission_entity.collection:
+  title: 'Form submission entity list'
+  route_name: entity.form_submission_entity.collection
+  description: 'List Form submission entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+form_submission_entity.admin.structure.settings:
+  title: Form submission entity settings
+  description: 'Configure Form submission entity entities'
+  route_name: form_submission_entity.settings
+  parent: system.admin_structure

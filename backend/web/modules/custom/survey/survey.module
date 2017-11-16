@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains survey.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function survey_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the survey module.
+    case 'help.page.survey':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Survey Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

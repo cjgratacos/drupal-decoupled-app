@@ -1,0 +1,28 @@
+uuid: f06c845b-9076-43a9-9bbf-6c98f83261cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.survey.body
+    - node.type.survey
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: w0B9gyLiLGqXy0g_WJt4YRwSXY8LTyXsA4u9wvqLIlQ
+id: node.survey.default
+targetEntityType: node
+bundle: survey
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

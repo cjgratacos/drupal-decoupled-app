@@ -38,6 +38,51 @@ types:
       user:
         exposed: false
         view_mode: '0'
+  webform_submission:
+    exposed: false
+    bundles:
+      survey_2:
+        exposed: false
+        view_mode: '0'
+      contact:
+        exposed: false
+        view_mode: '0'
+      survey_1:
+        exposed: false
+        view_mode: webform_submission.default
+      template_contact:
+        exposed: false
+        view_mode: '0'
+      template_donation:
+        exposed: false
+        view_mode: '0'
+      template_employee_evaluation:
+        exposed: false
+        view_mode: '0'
+      template_feedback:
+        exposed: false
+        view_mode: '0'
+      template_issue:
+        exposed: false
+        view_mode: '0'
+      template_job_application:
+        exposed: false
+        view_mode: '0'
+      template_job_seeker_profile:
+        exposed: false
+        view_mode: '0'
+      template_registration:
+        exposed: false
+        view_mode: '0'
+      template_session_evaluation:
+        exposed: false
+        view_mode: '0'
+      template_subscribe:
+        exposed: false
+        view_mode: '0'
+      template_user_profile:
+        exposed: false
+        view_mode: '0'
   menu_link_content:
     exposed: false
     bundles:
